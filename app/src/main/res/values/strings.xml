@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">XiaoruiRead</string>
+    <string name="bself">书架</string>
+    <string name="bstore">书城</string>
+    <string name="rec">推荐</string>
+    <string name="personal">我的</string>
 </resources>

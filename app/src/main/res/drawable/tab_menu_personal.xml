@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:drawable="personal_pressed.png" android:state_selected="true" />
-    <item android:drawable="personal_normal.png" />
+    <item android:drawable="@mipmap/personal_pressed" android:state_selected="true" />
+    <item android:drawable="@mipmap/personal_normal" />
 </selector>

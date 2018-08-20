@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/h_back"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@color/text_pressed" />
+
+    <ImageView
+        android:id="@+id/h_head"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="85dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="32dp"
+        android:background="@mipmap/userphoto" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="54dp"
+        android:layout_alignParentLeft="true">
+
+
+        <TextView
+            android:id="@+id/user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="225dp"
+            android:layout_marginStart="175dp"
+            android:text="登录"
+            android:textColor="@color/bg"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/user_val"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="245dp"
+            android:text="注册"
+            android:textColor="@color/bg"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <!--个人中心列表-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginBottom="50dp">
+
+        <ListView
+            android:id="@+id/listview02"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+        </ListView>
+    </RelativeLayout>
+
+
+</RelativeLayout>
